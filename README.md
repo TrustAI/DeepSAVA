@@ -8,10 +8,13 @@ The paper is accepted by the The 32nd British Machine Vision Conference (BMVC).
 Email: ronghui.mu@lancaster.ac.uk
 # Abstract
 In recent years, a significant amount of research efforts concentrated on adversarial attacks on images, while adversarial video attacks have seldom been explored. We propose an adversarial attack strategy on videos, called DeepSAVA.  Our model includes both additive perturbation and spatial transformation by a unified optimisation framework, where the structural similarity index measure is adopted to measure the adversarial distance. We design an effective and novel optimisation scheme which alternatively utilizes Bayesian optimisation to identify the most influential frame in a video and Stochastic gradient descent (SGD) based optimisation to produce both additive and spatial-transformed perturbations. Doing so enables DeepSAVA to perform a very sparse attack on videos for maintaining human imperceptibility while still achieving state-of-the-art performance in terms of both attack success rate and adversarial transferability. Our intensive experiments on various types of deep neural networks and video datasets confirm the superiority of DeepSAVA.
+
 # Generated adversarial video samples
 The generated video can be found in https://www.youtube.com/channel/UCBDswZC2QhBhTOMUFNLchCg
+
 # Results
 <img width="669" alt="截屏2021-10-22 下午3 17 37" src="https://user-images.githubusercontent.com/41231651/138469948-196edeca-45d0-4268-8c21-0cab10ed5815.png">
+<img width="664" alt="截屏2021-10-22 下午3 18 45" src="https://user-images.githubusercontent.com/41231651/138470150-7315272e-b960-4e07-acb2-a0d3cdf7660e.png">
 
 # Run
 The code is tested on the tensorfow >= 1.3.0
