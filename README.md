@@ -1,5 +1,7 @@
 # Sparse Adversarial Video Attack with Spatial Transformation
 
+# Generated adversarial video samples
+The generated video can be found in https://www.youtube.com/channel/UCBDswZC2QhBhTOMUFNLchCg
 
 The code is tested on the tensorfow >= 1.3.0
 ## Prepare data
