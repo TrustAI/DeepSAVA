@@ -12,9 +12,8 @@ In recent years, a significant amount of research efforts concentrated on advers
 # Generated adversarial video samples
 
 
+[![Everything Is AWESOME]](https://user-images.githubusercontent.com/41231651/138475923-18466fce-98d9-4e18-bf8d-48bce0e4c8e3.mov)
 
-
-https://user-images.githubusercontent.com/41231651/138475923-18466fce-98d9-4e18-bf8d-48bce0e4c8e3.mov
 
 
 
