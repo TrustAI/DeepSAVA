@@ -12,7 +12,7 @@ In recent years, a significant amount of research efforts concentrated on advers
 # Generated adversarial video samples
 
 
-<gif width="669" alt="video" src="https://user-images.githubusercontent.com/41231651/138474161-46fb869d-a799-4980-81c1-298d4be61b66.mov">
+<img width="669" alt="video" src="https://user-images.githubusercontent.com/41231651/138474161-46fb869d-a799-4980-81c1-298d4be61b66.mov">
 
 
 
