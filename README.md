@@ -58,7 +58,7 @@ python extract_features.py -i 'Data path'
 ### Then input the extracted features to lstm to train
 python train_new.py -i 'Feature path'
 ## Adversarial training for I3D model
-The I3D model is based on I3D models trained on Kinetics https://github.com/deepmind/kinetics-i3d.git
+### The I3D model is based on I3D models trained on Kinetics https://github.com/deepmind/kinetics-i3d.git
 python train_i3d.py -i 'Data path'
 
 
