@@ -50,5 +50,15 @@ python test_gen.py -i video_data -o output/I3D --model i3d_inception --dataset U
 ## Generate adversarial examples constrained by maximum lp norm 0.1 for I3D model
 python test_gen.py -i video_data -o output/I3D --model i3d_inception --dataset UCF101 --file_list /video_data/batch_test/test_saved.csv --constraint lp --budget 0.1 --num_iter 500 
 The generated adversarial videos will be stored in the folder "output/I3D"
+## Adversarial training for inception-v3 model
+python train_cnn.py -i 'Data path'
+## Adversarial training for CNN-LSTM model
+### First extract features use the adversarial trained inception-v3 model
+python extract_features.py -i 'Data path'
+### Then input the extracted features to lstm to train
+python train_new.py -i 'Feature path'
+## Adversarial training for I3D model
+The I3D model is based on I3D models trained on Kinetics https://github.com/deepmind/kinetics-i3d.git
+python train_i3d.py -i 'Data path'
 
 
