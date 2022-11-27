@@ -1,4 +1,4 @@
-# Sparse Adversarial Video Attack with Spatial Transformation
+# DeepSAVA: Sparse Adversarial Video Attack with Spatial Transformation
 Ronghui Mu, Wenjie Ruan, Leandro Soriano Marcolino and Qiang Ni.
 
 Sparse Adversarial Video Attack with Spatial Transformation
@@ -61,6 +61,10 @@ python train_new.py -i 'Feature path'
 ### The I3D model is based on I3D models trained on Kinetics https://github.com/deepmind/kinetics-i3d.git
 python train_i3d.py -i 'Data path'
 
+
+##
+
+### Note: This work is accepted by BMVC 2021. Pls find the paper here: [DeepSAVA: Sparse Adversarial Video Attack with Spatial Transformation](https://www.bmvc2021-virtualconference.com/assets/papers/1529.pdf)
 
 -- Ronghui Mu & Wenjie Ruan
 
