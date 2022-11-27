@@ -62,3 +62,5 @@ python train_new.py -i 'Feature path'
 python train_i3d.py -i 'Data path'
 
 
+-- Ronghui Mu & Wenjie Ruan
+
