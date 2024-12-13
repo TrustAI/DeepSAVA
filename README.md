@@ -5,6 +5,8 @@ Sparse Adversarial Video Attack with Spatial Transformation
 
 The paper is accepted by the The 32nd British Machine Vision Conference (BMVC).
 https://arxiv.org/abs/2111.05468
+The extended version of this paper "Enhancing robustness in video recognition models: Sparse adversarial attacks and beyond" is published in Neural Networks. 
+https://www.sciencedirect.com/science/article/pii/S0893608023006792
 
 
 Email: r.mu2@exeter.ac.uk
